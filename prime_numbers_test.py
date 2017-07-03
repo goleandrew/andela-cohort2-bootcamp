@@ -19,7 +19,7 @@ class TestPrimeNumbers(unittest.TestCase):
             0), "0 or 1 are not prime numbers.")
 
     def test_one(self):
-        """"testing if one is correctly determined not to be prime number."""
+        """"testing if 1 is correctly determined not to be prime number."""
 
         self.assertEqual(prime_numbers(
             1), "0 or 1 are not prime numbers.")
