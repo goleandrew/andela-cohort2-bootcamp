@@ -15,14 +15,12 @@ class TestPrimeNumbers(unittest.TestCase):
     def test_zero(self):
         """testing if 0 is correctly determined not to be a prime number."""
 
-        self.assertEqual(prime_numbers(
-            0), "0 or 1 are not prime numbers.")
+        self.assertEqual(prime_numbers(0), "0 or 1 are not prime numbers.")
 
     def test_one(self):
         """"testing if 1 is correctly determined not to be prime number."""
 
-        self.assertEqual(prime_numbers(
-            1), "0 or 1 are not prime numbers.")
+        self.assertEqual(prime_numbers(1), "0 or 1 are not prime numbers.")
 
     def test_invalid_type_string_list(self):
         """testing if error returned for non-integer input."""
@@ -32,8 +30,7 @@ class TestPrimeNumbers(unittest.TestCase):
     def test_only_positive(self):
         """testing if error returned for negative integers input."""
 
-        self.assertEqual(
-            prime_numbers(-1), "integers less than 2 cannot be prime numbers")
+        self.assertEqual(prime_numbers(-1), "integers less than 2 cannot be prime numbers")
 
 
 if __name__ == "__main__":
