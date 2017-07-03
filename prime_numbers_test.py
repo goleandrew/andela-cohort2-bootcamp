@@ -10,7 +10,7 @@ class TestPrimeNumbers(unittest.TestCase):
     def test_prime_numbers(self):
         """testing if prime numbers are correctly generated."""
 
-        self.assertEqual(prime_numbers(20), [2, 3, 5, 7, 11, 13, 17, 19])
+        self.assertEqual(prime_numbers(10), [2, 3, 5, 7])
 
     def test_zero(self):
         """testing if 0 is correctly determined not to be a prime number."""
