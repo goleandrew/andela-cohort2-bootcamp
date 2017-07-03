@@ -1,19 +1,19 @@
-"""Prime numbers module."""
+"""module for generating prime numbers between 0 and n"""
 
 
 def prime_numbers(number):
-    """Function to generate prime numbers within given range."""
+    """function to generate prime numbers between 0 and n."""
 
     prime_number_list = []
 
     if number in (0, 1):
-        return "Zero or One cannot be prime numbers."
+        return "0 or 1 are not prime numbers."
 
     if number < 2:
-        return "Not possible to generate prime numbers for integers less than 2."
+        return "integers less than 2 cannot be prime numbers"
 
-    if type(number) != int:
-        return "Only integers are allowed."
+    if not isinstance(number, int):
+        return "only integers are allowed."
 
     for i in range(2, number + 1):
         if i > 1:
