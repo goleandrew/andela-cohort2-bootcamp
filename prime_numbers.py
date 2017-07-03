@@ -1,1 +1,1 @@
-#Function to Generate Prime Numbers
+#Function to Generate Prime Numbers between 0 and n
