@@ -1,1 +1,1 @@
-#Test Case for Prime Numbers
+#Test Case for Prime Number between 0 and n
